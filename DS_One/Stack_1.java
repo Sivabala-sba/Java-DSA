@@ -13,7 +13,7 @@ public class Stack_1 {
             top = -1;
         }
 
-        //add elements into stack
+        //add elements to the stack
         public void push(int x){
             if(isFull()){
                 System.out.println("OverFlow\nProgram Terminated");
